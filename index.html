@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"  href="styles.css">
+    <!--<link rel="stylesheet"  href="styles2.css">-->
+</head>
+<body>
+ 
+
+   
+    
+        <!-- Loader -->
+    <div id="loader">
+        <img src="/img/OIP.jpeg" alt="Logo Vive sin Límites">
+        <div id="loader-porcentage">0%</div>
+    </div>
+    
+   
+    
+
+<header>
+     <h1>Noticias Tancítaro</h1>
+  <nav class="navbar">
+    <!-- Logo animado -->
+    <a href="index.html" class="logo animacion-logo">
+      <img src="/img/OIP.jpeg" alt="Logo Noticias Tancítaro" class="logo-img">
+    </a>
+
+    <!-- Checkbox menú hamburguesa -->
+    <input type="checkbox" id="toggle-menu">
+    <label for="toggle-menu" class="menu-icon">&#9776;</label>
+
+    <!-- Enlaces del menú -->
+    <ul class="menu">
+      <li><a href="#inicio">🏠 Inicio</a></li>
+      <li><a href="#Noticias">📰 Noticias</a></li>
+      <li><a href="#Deportes">🏀 Deportes</a></li>
+      <li><a href="#Servicios">🛠️ Servicios</a></li>
+      <li><a href="#Contacto">📞 Contacto</a></li>
+      <li><a href="/preguntasfrecuentes.html">❓ Preguntas</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+
+
+    <section id="inicio" class="seccion">
+        <h2>🏞️ Tancítaro: El Gigante Natural de Michoacán</h2>
+            <p>Tancítaro, ubicado en el estado de Michoacán, es un municipio que destaca por su belleza natural, su cultura agrícola y
+                su gente trabajadora. Conocido como “la capital mundial del aguacate”, 
+                    Tancítaro ha ganado relevancia tanto a nivel nacional como internacional por su producción de este fruto.</p>
+                <br>
+                <br>
+
+            <p>Tancítaro alberga el Cerro de Tancítaroy3,800 metros sobre el nivel del mar. Este volcán extinto forma parte de la Reserva de la Biosfera
+                y es un paraíso para los amantes del senderismo, la naturaleza y el ecoturismo.</p>    
+        <div class="galeria">
+            <img src="/img/Tancitaro.jpeg">
+            <img src="/img/lilo.jpeg">
+        </div>
+    </section>
+            <br>
+            <br>
+
+    <section id="Noticias" class="seccion">
+        <h2>Informacion veridica</h2>
+            <p>Fuerte granizada en la comunidad de Araparicuaro</p>
+            <br>
+        <video class="video-responsivo" controls>
+            <source src="/video/elchido.mp4" type="video/mp4">
+            Tu navegador no soporta el video.
+        </video>
+       
+
+        <div class="iframe-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25325.84051550382!2d-102.38489486190691!3d19.338442013699176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842e19e3e1ee1add%3A0x82721c3f9f6bd64b!2s60460%20Tanc%C3%ADtaro%2C%20Mich.!5e0!3m2!1ses-419!2smx!4v1750266582582!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>" 
+                title="Contenido Embebido"
+                frameborder="0" 
+                allowfullscreen 
+                loading="lazy"
+            ></iframe>
+        </div>
+      
+    </section>
+
+    <section id="Deportes" class="seccion">
+        <h2>Deportes</h2>
+            <p>Tancitaro cuenta con numerosos deportistas que ponen en grande a nuestro municipio</p>
+            <p>gracias a ellos tancitaro se ha conciderado campeon en varios campos</p>
+            <p>Contamos con la seleccion femenil de basquet boll al igual que con el equipo masculino </p>
+        <div class="galeria">
+            <img src="/img/IMG-20240604-WA0104-scaled.jpg" alt="Equipo masculino">
+            <img src="/img/images (1).jpeg" alt="Equipo Femenil">
+        </div>
+    </section>
+
+    <section id="Servicios" class="seccion">
+        <h2>Servicios</h2>
+        <ul>
+            <li>Informacion rapida</li>
+            <li>Informacion veridica</li>
+            <li>Contactacion directa</li>
+            <li>Servicio de emerjencias</li>
+            <li>Seguridad eficiente</li>
+        </ul>
+         <div class="galeria">
+            <img src="/img/uutuut.webp">
+            <img src="/img/ooo.webp">
+        </div>
+     </section>
+    <section id="Servicios" class="seccion">
+        <br>
+        <br>
+        <h2>Tancitaro cuenta con varios planteles educativos, entre ellos esta el CECyTE 03 Tancitaro lugar de estudios de muchos profecionistas actuales</h2>
+        <p>Gracias a sus maestros el plantel se concidera como uno de los mejores en todo Michoacán</p>
+        <br>
+         <div class="galeria">
+            <img src="/img/maestros.jpeg">
+              
+        
+                <!-- Imagen que abre el modal -->
+                <img src="/img/cecy.png" alt="El mejor colegio de estudios medio superior de tancítaro Michoacán" class="imagen-popup" id="imagenMini">
+
+                <!-- Modal oculto -->
+                <div id="miModal" class="modal">
+                <span class="cerrar" id="cerrarModal">&times;</span>
+                <img class="modal-contenido" id="imagenAmpliada">
+                <div id="caption"></div>
+            
+        </div> 
+    </section>
+    
+    <section id="Contacto" class="seccion">
+         <h2>Contacto</h2>
+       
+        <form>
+            <textarea placeholder="Agrega tu nombre" required></textarea>
+           <input type="email" id="correo" name="correo" placeholder="Agrega un correo electrónico" required>
+           <textarea placeholder="Agrega un mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>    
+        <br>
+        <br>
+        <br>
+       
+        <br>
+        
+    <footer>
+        <p>&copy;Todos los derechos reservados Noticias Tancitaro 2025</p>
+    </footer>
+
+    <script src="modalypop-up.js"></script>
+</body>
+</html>
